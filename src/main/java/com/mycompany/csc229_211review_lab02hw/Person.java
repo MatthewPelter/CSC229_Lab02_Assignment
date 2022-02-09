@@ -2,12 +2,12 @@ package com.mycompany.csc229_211review_lab02hw;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author Matthew Pelter
  */
 public abstract class Person {
 	
 	private String name;
-	private String address;
+	protected String address;
 	private short age;
 	
 	// constructor that takes only two paras
@@ -25,7 +25,7 @@ public abstract class Person {
 		this.name = name;
 	}
 	
-	public abstract String getAddress() ;
+	public abstract String getAddress();
 	
 	public abstract void setAddress(String address);
 	
